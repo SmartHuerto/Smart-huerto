@@ -29,8 +29,8 @@ DHT dht(DHTPin, DHTTYPE);
 #define APssid "Smart guerto config"
 #define APpasswd "pruebaF4sil"
 const String ARD_ID = "Id arduino";
-#define FIREBASE_HOST "url-firebase"
-#define FIREBASE_AUTH "Secreto firebase"
+#define FIREBASE_HOST "smart-huerto.firebaseio.com"
+#define FIREBASE_AUTH "YeUaXVVCxKGCZqXlGrgin17C0Y16f1nFEgIFKCdD"
 #define NTP_OFFSET 60 * 60 // En segundos
 #define NTP_INTERVAL 60 * 1000 // En milisegundos
 #define NTP_ADDRESS "pool.ntp.org" // URL NTP
